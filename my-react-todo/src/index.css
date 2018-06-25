@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+header{
+  position: static;
+  height: 10vh;
+}
+header a {
+  margin-left: 1em;
+}
+nav {
+  background-color: #26a69a;
+  height: 10vh;
+}
+.todos{
+  margin: 1em 2em;
+  overflow: scroll;
+  position: static;
+  width: 70%;
+  text-align: center;
+}
+.todosContainer {
+  width: 90vh;
+  margin: auto;
+  position: static;
+}
+
+h2 {
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+  color: black;
+}
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+.incomplete h2{
+  border-bottom: 3px solid red;
+}
+.todosComponent{
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+}
+
+
+p {
+  font-size: 2em;
+}
+
+.todoForm {
+  clear:both;
+  text-align: center;
+  color: white;
+  
+}
+
+
+.createForm {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  width: 30%;
+  margin: 0 2em;
+  position: static;
+}
+
+.btn-small{
+  margin: 0 2em;
+}
+
+.delete {
+  background-color: rgb(223, 15, 15);
+}
+
+.edit{
+  background-color: rgb(230, 230, 11);
+}
+.card{
+  background-color: rgb(238, 237, 237);
+}
+input {
+  color: black;
+}
