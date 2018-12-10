@@ -1,5 +1,7 @@
 ## Todo~ly
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/DaltonHart/Todo-ly.svg)](https://greenkeeper.io/)
+
 Full Crud application build off of an api of Todos.
 Found at 
 [Heroku](https://super-crud-api.herokuapp.com/)
